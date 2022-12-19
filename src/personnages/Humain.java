@@ -1,9 +1,9 @@
 package personnages;
 
 public class Humain {
-	private String nom;
-	private String role;
-	private String genre;
+	public String nom;
+	public String role;
+	public String genre;
 	
 	public Humain(String nom, String role,String genre) {
 		super();
@@ -20,5 +20,14 @@ public class Humain {
 	}
 	public String getGenre() {
 		return genre;
+	}
+	public void setNom(String nom) {
+		this.nom=nom;
+	}
+	public void setRole(String role) {
+		this.role=role;
+	}
+	public void setGenre(String genre) {
+		this.genre=genre;
 	}
 }

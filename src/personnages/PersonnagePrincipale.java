@@ -6,5 +6,6 @@ public class PersonnagePrincipale extends Humain {
 	}
 	
 	
+	
 
 }
